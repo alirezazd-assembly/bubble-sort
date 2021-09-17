@@ -22,5 +22,6 @@ Note that the loop counters should also be edited accordingly.
   <img src="./bubble_sort_EMU8086_results.png"/>
 </p>
 <p align="center"> <i> Fig.2. Output of the code in EMU8086 </i> </p>
+
 ## References
 [1] https://en.wikipedia.org/wiki/Bubble_sort
