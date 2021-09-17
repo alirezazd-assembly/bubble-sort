@@ -4,13 +4,13 @@
      MAIN PROC near
      MOV AX, @DATA    ; initialize DS
      MOV DS, AX                   
-     mov cx,7    ; Counter of the first loop. Edit the number to match the length of the data. 
+     mov cx,7         ; Counter of the first loop. Edit the number to match the length of the data. 
      mov si,offset Array
 LBL0:
     dec cx
     cmp cx,00
     je  RES0
-    mov bp,65535    ; Counter of the second loop. Initilized with FFFF to get 0 for the loop start after increment.
+    mov bp,65535      ; Counter of the second loop. Initilized with FFFF to get 0 for the loop start after increment.
 LBL1:
     inc bp  
     cmp cx,bp
@@ -24,8 +24,8 @@ LBL1:
     mov [si+bp ],bl                   
     jmp LBL1
 RES0:      
-    mov cx,7    ; Edit the second loop counter number to match the length of the data.
-RES1:  ; Print output.
+    mov cx,7         ; Edit the second loop counter number to match the length of the data.
+RES1:                ; Print output.
     mov bl,[si] 
     add bl,48  
     mov dl, bl
