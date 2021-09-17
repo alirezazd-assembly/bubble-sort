@@ -13,5 +13,8 @@ Starting from the beginning of the list, compare every adjacent pair, swap their
 
 ## Performance
 The bubble sort algorithm performs poorly in real-world use and is used primarily as an educational tool. Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. Most practical sorting algorithms have substantially better worst-case or average complexity, often O(n log n) \[1].
+
+## Uasage
+The source code is tested with 
 ## References
 [1] https://en.wikipedia.org/wiki/Bubble_sort
