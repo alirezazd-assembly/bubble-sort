@@ -1,10 +1,10 @@
 .data  
-    Array DB  4,5,6,2,0,4,3,3,9,7,1,2
+    Array DB  3,1,5,2,4,6,8,
 .code
      MAIN PROC near
      MOV AX, @DATA                 ; initialize DS
      MOV DS, AX                    
-     mov cx,10
+     mov cx,7
      mov si,offset Array
 LBL0:
     dec cx
@@ -24,7 +24,7 @@ LBL1:
     mov [si+bp ],bl                   
     jmp LBL1
 RES0:      
-    mov cx,10
+    mov cx,7
 RES1:  
     mov bl,[si] 
     add bl,48  
@@ -36,8 +36,3 @@ RES1:
     MAIN ENDP
 END MAIN    
 ret
-
-
-
-
-
