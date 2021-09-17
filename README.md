@@ -2,9 +2,7 @@
 <img align="left" src="https://img.shields.io/badge/Status-Inactive-9acf08"> <img align="right" src="https://img.shields.io/github/last-commit/alirezazd-asm/bubble-sort?logoColor=d0d615"> <p align="center"><img src="https://img.shields.io/badge/Target%20Processor-Intel%208086-blue"/></p>
 ## Background
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass of the list is repeated until the list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list \[1].
-## Visualization
-The below animation illustrates the bubble sort algorithm visually.
-Starting from the beginning of the list, compare every adjacent pair, swap their position if they are not in the right order (the latter one is smaller than the former one). After each iteration, one less element (the last one) is needed to be compared until there are no more elements left to be compared. 
+The below animation illustrates the bubble sort algorithm visually. Starting from the beginning of the list, compare every adjacent pair, swap their position if they are not in the right order (the latter one is smaller than the former one). After each iteration, one less element (the last one) is needed to be compared until there are no more elements left to be compared. 
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif"/>
@@ -24,4 +22,4 @@ Note that the loop counters should also be edited accordingly.
 <p align="center"> <i> Fig.2. Output of the code in EMU8086 </i> </p>
 
 ## References
-[1] https://en.wikipedia.org/wiki/Bubble_sort
+[1] https://en.wikipedia.org/wiki/Bubble_sort.
