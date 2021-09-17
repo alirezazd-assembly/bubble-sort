@@ -18,5 +18,9 @@ The bubble sort algorithm performs poorly in real-world use and is used primaril
 The source code is tested with [EMU8086](https://emu8086-microprocessor-emulator.en.softonic.com/).
 The .data section of the code can be edited according to your data.
 Note that the loop counters should also be edited accordingly.
+<p align="center">
+  <img src="./bubble_sort_EMU8086_results.png"/>
+</p>
+<p align="center"> <i> Fig.2. Output of the code in EMU8086 </i> </p>
 ## References
 [1] https://en.wikipedia.org/wiki/Bubble_sort
