@@ -12,7 +12,7 @@ The below animation illustrates the bubble sort algorithm visually. Starting fro
 ## Performance
 The bubble sort algorithm performs poorly in real-world use and is used primarily as an educational tool. Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. Most practical sorting algorithms have substantially better worst-case or average complexity, often O(n log n) \[1].
 
-## Uasage
+## Usage
 The source code is tested with [EMU8086](https://emu8086-microprocessor-emulator.en.softonic.com/).
 The .data section of the code can be edited according to your data.
 Note that the loop counters should also be edited accordingly.
